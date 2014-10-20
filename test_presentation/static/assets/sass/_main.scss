@@ -1,0 +1,66 @@
+*{
+    @include box-sizing(border-box);
+}  
+
+/*
+ * global CSS
+ *
+ */
+
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+html {
+  	color:$textColor;
+  	font-family: $baseFontFamily;
+  	background-color: $bodyBackground;
+  	font-size: 100%; /* Global base font-size default */
+  	line-height: $baseLineHeight;
+}
+body {
+    font-size: 1em;
+    &.clip{
+        overflow: hidden;
+    }
+}
+
+.inner{
+  	max-width: $innerContentW;
+  	margin: 0 auto;
+  	position: relative;
+}
+
+/*ie8 with box sizing, max-width and padding messes up the total witdh */
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+header{
+
+}
+
+
+.logo{
+
+}
+
+
+/* ==========================================================================
+   Site Content wrapper
+   ========================================================================== */
+
+main{
+
+}
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer{
+
+}

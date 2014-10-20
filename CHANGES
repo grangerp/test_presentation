@@ -1,0 +1,10 @@
+0.1 - 2014/10/25
+----------------
+
+* update version.py
+
+* type *python version.py* to get the version 'normal' number
+
+* update the version number and the date at the top of items
+
+* Remove this documentation at first release

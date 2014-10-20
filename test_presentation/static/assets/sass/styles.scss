@@ -1,0 +1,41 @@
+
+// WebFonts
+@import "fonts";   
+
+// Core variables and mixins
+@import "variables"; // Modify this for custom colors, font-sizes, etc
+@import "mixins";
+@import "placeholders";
+
+// CSS normalize + basic reset 
+@import "normalize";
+
+// Base CSS
+@import "type";
+@import "icons"; 
+
+//plugins   
+// @import "plugins/owl-carousel";
+// @import "plugins/fancybox";
+
+// Global CSS  
+@import "main";
+@import "navigation";  
+
+//Modules
+//@import "modules/general";  
+//@import "modules/modules";    
+
+//extras
+@import "extras"; 
+@import "forms";
+@import "touch";
+@import "ie-styles";
+
+//responsive
+ @import "responsive/responsive";
+
+
+// last, print basic styling
+@import "print";
+

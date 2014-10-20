@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+
+import os  # noqa
+
+ALLOWED_HOSTS = ('*', )
+
+DEBUG = True
+COMPRESS_ENABLED = not DEBUG
+
+# Already generated in project settings, but if it is public, override it!
+# SECRET_KEY = u'change it dude!'
+
+# RAVEN_CONFIG = {
+#   'dsn': '',
+# }
+
+# Default, mails are outputed on console
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+# default, in project root
+# STATIC_ROOT = os.path.join(CONTAINER_DIR, 'static')
+# COMPRESS_ROOT = STATIC_ROOT
+# MEDIA_ROOT = os.path.join(CONTAINER_DIR, 'media')
+# CKEDITOR_UPLOAD_PATH = os.path.join(MEDIA_ROOT, 'ckeditor')
+
+# GOOGLE_ANALYTICS_TOKEN = ''

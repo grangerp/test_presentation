@@ -1,0 +1,16 @@
+uwsgi
+ipython
+rainbow-logging-handler
+django<1.7
+psycopg2
+South
+django-split-settings
+django-suit
+raven
+django-rosetta
+django_compressor
+
+django-nose
+django-webtest
+webtest
+factory_boy

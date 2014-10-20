@@ -1,0 +1,12 @@
+
+
+/****
+	Main JS file
+****/
+
+(function (window, document, $,) {
+
+    'use strict';
+
+    
+})(window, document, jQuery);
