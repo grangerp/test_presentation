@@ -1,0 +1,7 @@
+
+- mock
+- django email outbox
+- webtest (auth) cas du form 2 tests
+- httptretty
+- django-nose (REUSE_DB=1)
+- coverage
